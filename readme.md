@@ -35,6 +35,11 @@ Navigate to the root directory of the project and install the axios package usin
 ```
 npm install axios
 ```
+### set openai tokens in .env
+
+chmod +x set-tokens.sh 
+./set-tokens.sh
+
 ### Running the Applications
 Running app.py To run the app.py file, execute the following command:
 
