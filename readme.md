@@ -2,24 +2,24 @@
 
 This repository contains the source code for an application built using Python and TypeScript. Below is an overview of the files and instructions to set up and run the project.
 
-## Files Included
+### Files Included
 
 - `app.py`: Python file for the Flask application.
 - `app.ts`: TypeScript file for the application.
 - `node_modules/`: Directory containing Node.js dependencies.
 - `requirements.txt`: File listing Python dependencies.
 
-## Getting Started
+### Getting Started
 
-Follow the steps below to set up and run the project on your local machine.
+Follow the steps below to set up and run the Repo on your local machine.
 
 ### Clone the Repository
 
 Clone the repository to your local machine using the following command:
 
-```bash
-git clone <repository_url>
-
+```
+git clone https://github.com/ragu8/Test-api
+```
 
 ### Install Python Dependencies
 
