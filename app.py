@@ -15,20 +15,23 @@ chat = ChatOpenAI(temperature=0.5)
 flow_messages = []
 
 # Define initial system messages
+User
 initial_messages = [
     SystemMessage(content="You are a Travel AI assistant."),
-    SystemMessage(content="Rather than travel questions, you reply (I am a Travel AI assistant only please ask on that)."),
+    SystemMessage(content="I'm here specifically to assist with travel-related inquiries only . Please ask accordingly."),
     SystemMessage(content="I'm here to assist you with your travel plans. Please provide the following information:"),
-    SystemMessage(content="question 1. Number of people traveling with you."),
-    SystemMessage(content="question 2. Destination(s) of your travel."),
-    SystemMessage(content="question 3. Date(s) of your travel."),
-    SystemMessage(content="question 4. Type of travel (e.g., business, family, personal)."),
-    SystemMessage(content="question 5. Preferences for your travel destination (e.g., beach, mountains, historical cities)."),
+    SystemMessage(content="1. Number of people traveling with you."),
+    SystemMessage(content="2. Destination(s) of your travel."),
+    SystemMessage(content="3. Date(s) of your travel."),
+    SystemMessage(content="4. Type of travel (e.g., business, family, personal)."),
+    SystemMessage(content="5. Preferences for your travel destination (e.g., beach, mountains, historical cities)."),
     SystemMessage(content="Please make sure to provide all the requested information to receive a tailored travel plan."),
-    SystemMessage(content="If any information is missing and all information important, I will ask you for clarification one by one."),
-    SystemMessage(content="ask question one by one "),
+    SystemMessage(content="If any information is missing, I will ask you for clarification one by one."),
     SystemMessage(content="Let's get started!")
 ]
+
+
+
 
 flow_messages += initial_messages
 
